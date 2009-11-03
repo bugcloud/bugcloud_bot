@@ -109,7 +109,12 @@ module BugcloudBot
 
     #update
     def update text
-      @rubytter.update text
+      begin
+        @rubytter.update text
+        p 'success'
+      rescue Rubytter::APIError
+        p 'APIError occured!'
+      end
     end
 
   end
