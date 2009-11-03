@@ -1,0 +1,16 @@
+= bugcloud_bot 
+
+This is a simple twitter bot.
+You can make the bot run which replying your timeline.
+
+Ref:http://bugcloud.com/?p=597
+
+I refered to kwappa's rakuseika bot to make this bot.
+http://github.com/kwappa/rakuseika
+Thank you so much kwappa.
+
+enjoy!
+
+== license
+MIT
+
